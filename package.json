@@ -5,12 +5,12 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
-  }
-  ,
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
     "parcel": "^2.15.4"
   }
 }
