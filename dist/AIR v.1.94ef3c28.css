@@ -1,0 +1,121 @@
+.services__info__text {
+  flex-direction: column;
+  justify-content: left;
+  display: flex;
+}
+
+.services h2 {
+  color: #c0cdd7;
+  letter-spacing: 3px;
+  margin-top: 251px;
+  margin-left: 225px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.services p {
+  color: #253757;
+  margin-top: 16px;
+  margin-left: 227px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.services h3 {
+  color: #6c788b;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.basic__text__from__service, .basic__text__from__service2 {
+  margin-top: 24px;
+  margin-left: 227px;
+}
+
+.wrapper__service {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+}
+
+.wrapper__together {
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.first__and__second__wrapp {
+  display: flex;
+}
+
+.third__and__fourth__wrapp {
+  flex-direction: column;
+  margin-right: 227px;
+  display: flex;
+}
+
+.wrapper__first__card {
+  margin-top: 280px;
+}
+
+.wrapper__second__card, .wrapper__fourth__card {
+  margin-top: 30px;
+}
+
+.main__styles {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  width: 245px;
+  height: 245px;
+  padding: 32px;
+}
+
+.numbers__scss {
+  color: #2060f6;
+  text-align: center;
+  background-color: #e9effe;
+  border: 1px solid #e9effe;
+  border-radius: 23px;
+  justify-content: center;
+  width: 46px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  display: flex;
+}
+
+.main__text__card {
+  color: #6c788b;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text__near__arrow {
+  color: #334563;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.arrow__grid {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+/*# sourceMappingURL=AIR v.1.94ef3c28.css.map */
