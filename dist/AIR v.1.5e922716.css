@@ -1,0 +1,49 @@
+.expertise {
+  text-align: center;
+}
+
+.cards {
+  justify-content: center;
+  gap: 230px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 150px;
+  margin-top: 64px;
+}
+
+.card p {
+  color: #253757;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.expertise h2 {
+  color: #253757;
+  margin-top: 128px;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.expertise h3 {
+  color: #6c788b;
+  margin-top: 16px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=AIR v.1.5e922716.css.map */

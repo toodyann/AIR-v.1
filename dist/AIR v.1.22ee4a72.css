@@ -1,0 +1,26 @@
+.footer {
+  background-color: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  height: 867px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li::marker {
+  content: "";
+  display: none;
+}
+
+.link__footer {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+/*# sourceMappingURL=AIR v.1.22ee4a72.css.map */
