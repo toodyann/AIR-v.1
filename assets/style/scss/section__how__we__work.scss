@@ -1,0 +1,42 @@
+.how__we__work__container{
+    background-image: url(../../img/shapes.svg);
+    
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 888px;
+    margin-top: 148px;
+}
+
+.how__we__work__container p{
+    text-align: center;    
+    padding-top:199px;
+    margin: 0;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    color: #253757;
+
+}
+
+.how__we__work__container h4{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24;
+    line-height: 150%;
+    color: #6C788B;
+
+    padding-top: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.how__we__work__container a{
+    margin-top: 64px;
+    margin-left: 668px;
+    padding: 0;
+    width: 264px;
+    height: 56px;
+}

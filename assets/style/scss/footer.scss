@@ -1,0 +1,30 @@
+.footer{
+    background-color: #2C2C2C;
+    border: 1px solid #2C2C2C;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+    margin: 0;
+    padding: 0;
+    height: 867px;
+}
+
+
+
+
+ul li::marker{
+content: '';
+    display: none;
+}
+
+// NAV BAR FOOTER
+.link__footer{
+    display: inline-block;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style: none;
+}
