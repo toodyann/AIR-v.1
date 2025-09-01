@@ -251,12 +251,25 @@ a:hover {
   line-height: 150%;
 }
 
-.how__we__work__container a {
-  justify-items: center;
+.button__about__apply {
+  color: #fff;
+  background-color: #2060f6;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 56px;
-  margin-top: 64px;
   padding: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.button__about__apply__wrapper {
+  justify-content: center;
+  margin-top: 64px;
   display: flex;
 }
 
