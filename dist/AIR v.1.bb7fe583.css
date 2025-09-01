@@ -624,4 +624,10 @@ a svg:hover {
 .link__footer {
   display: flex;
 }
+
+@media screen and (width >= 764px) {
+  .expertise {
+    background-color: red;
+  }
+}
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
