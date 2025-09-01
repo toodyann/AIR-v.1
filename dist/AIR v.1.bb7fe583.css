@@ -164,15 +164,6 @@ a:hover {
   display: flex;
 }
 
-.about__about {
-  background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 55px;
-  width: 1600px;
-  height: 759px;
-  margin-top: 148px;
-}
-
 .expertise {
   text-align: center;
 }
@@ -222,11 +213,18 @@ a:hover {
   font-weight: 400;
 }
 
+.about__about {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 55px;
+  height: 759px;
+  margin-top: 148px;
+}
+
 .how__we__work__container {
   background-color: #fff;
   background-image: url("shapes.34b570bb.svg");
   background-repeat: no-repeat;
-  max-width: 1600px;
   height: 888px;
   margin-top: 148px;
 }
@@ -253,12 +251,26 @@ a:hover {
   line-height: 150%;
 }
 
-.how__we__work__container a {
+.button__about__apply {
+  color: #fff;
+  background-color: #2060f6;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 56px;
-  margin-top: 64px;
-  margin-left: 668px;
   padding: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.button__about__apply__wrapper {
+  justify-content: center;
+  margin-top: 64px;
+  display: flex;
 }
 
 .services__info__text {
@@ -623,11 +635,5 @@ a svg:hover {
 
 .link__footer {
   display: flex;
-}
-
-@media screen and (width >= 764px) {
-  .expertise {
-    background-color: red;
-  }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
