@@ -29,19 +29,28 @@ html, body {
 
 .header__container {
   align-items: center;
+  gap: 251px;
   display: flex;
 }
 
-.header__container li {
+.nav__links {
+  gap: 48px;
+  display: flex;
+}
+
+.header__container {
+  flex-direction: row;
   align-items: center;
   margin-right: 48px;
   padding-top: 52px;
-  display: inline-block;
+  display: flex;
 }
 
 .logo {
-  padding-top: 48px;
+  cursor: pointer;
+  text-align: center;
   padding-left: 227px;
+  display: flex;
 }
 
 .wrapper {
@@ -68,7 +77,8 @@ html, body {
 }
 
 a:hover {
-  color: #00f;
+  color: gray;
+  transition: color .3s;
 }
 
 .main-content {
@@ -154,15 +164,6 @@ a:hover {
   display: flex;
 }
 
-.about__about {
-  background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 55px;
-  width: 1600px;
-  height: 759px;
-  margin-top: 148px;
-}
-
 .expertise {
   text-align: center;
 }
@@ -212,16 +213,23 @@ a:hover {
   font-weight: 400;
 }
 
+.about__about {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 55px;
+  height: 759px;
+  margin-top: 148px;
+}
+
 .how__we__work__container {
   background-color: #fff;
   background-image: url("shapes.34b570bb.svg");
   background-repeat: no-repeat;
-  max-width: 1600px;
   height: 888px;
   margin-top: 148px;
 }
 
-.how__we__work__container p {
+.only__p {
   text-align: center;
   color: #253757;
   margin: 0;
@@ -244,11 +252,12 @@ a:hover {
 }
 
 .how__we__work__container a {
+  justify-items: center;
   width: 264px;
   height: 56px;
   margin-top: 64px;
-  margin-left: 668px;
   padding: 0;
+  display: flex;
 }
 
 .services__info__text {
@@ -267,7 +276,7 @@ a:hover {
   font-weight: 700;
 }
 
-.services p {
+.services__p {
   color: #253757;
   margin-top: 16px;
   margin-left: 227px;
@@ -479,6 +488,139 @@ ul li::marker {
   font-weight: 700;
   text-decoration: none;
   list-style: none;
+}
+
+.contact__form {
+  flex-direction: column;
+  gap: 48px;
+  width: 460px;
+  height: 475px;
+  padding-top: 56px;
+  padding-left: 227px;
+  display: flex;
+}
+
+.paragraph__in__footer {
+  color: #fff;
+  padding-top: 180px;
+  padding-left: 227px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
   display: inline-block;
+}
+
+input, textarea {
+  resize: none;
+  color: #fff;
+  background: none;
+  border-top: #fff;
+  border-left: #fff;
+  border-right: #fff;
+  outline: none;
+  width: 460px;
+  padding: 17px 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 100%;
+  display: block;
+}
+
+textarea {
+  height: 22px;
+}
+
+input:focus, textarea:focus {
+  border-bottom-color: #144ed4;
+  transition: border-color .3s;
+}
+
+.footer__button {
+  color: #fff;
+  background-color: #2060f6;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 17px 112px 16px 113px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: flex;
+}
+
+button:hover {
+  color: #fff;
+}
+
+.form__all {
+  display: flex;
+}
+
+.container__contacts {
+  flex-direction: column;
+  display: flex;
+}
+
+.container__contacts p {
+  color: #fff;
+  padding-top: 180px;
+  padding-left: 226px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.container__contacts h5 {
+  letter-spacing: 3px;
+  color: #ffffff80;
+  padding-top: 56px;
+  padding-left: 226px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.container__contacts h3 {
+  color: #fff;
+  padding-top: 8px;
+  padding-left: 226px;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.icons__web {
+  color: #fff;
+  cursor: pointer;
+  gap: 38px;
+  min-width: 32px;
+  min-height: 32px;
+  padding-top: 16px;
+  padding-left: 226px;
+  display: flex;
+}
+
+a svg {
+  color: #fff;
+}
+
+a svg:hover {
+  color: #2060f6;
+  transform: scale(1.2);
+}
+
+.footer__container {
+  gap: 463px;
+  display: flex;
+}
+
+.link__footer {
+  display: flex;
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
