@@ -1,0 +1,42 @@
+// section expertise
+
+@media screen and (max-width:430px) {
+    .card{
+
+    }
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about__about{
+        height: 150vh;
+    }
+}
+
+
+// section services 
+
+
+@media screen and (max-width:430px) {
+    .wrapper__together{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+// section header 
+
+
+@media screen and (max-width:430px) {
+    .nav__links{
+        display: none;
+    }
+    .logo{
+        padding: 21px;
+    }
+    .header__container{
+        padding-top: 0;
+        
+    }
+}

@@ -5,6 +5,7 @@
   
   .cards {
     display: flex;
+    
     justify-content: center;
     gap: 230px; 
     margin-top: 30px;
@@ -13,6 +14,7 @@
   .card {
     display: flex;
     flex-direction: column;
+
     align-items: center; 
   }
   
