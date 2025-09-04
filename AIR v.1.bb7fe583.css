@@ -704,5 +704,9 @@ a svg:hover {
   .testimonial__first__text p, .testimonial__first__text h1 {
     margin-left: 20px;
   }
+
+  br {
+    display: none;
+  }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
