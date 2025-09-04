@@ -638,19 +638,6 @@ a svg:hover {
 }
 
 @media screen and (width <= 430px) {
-  .cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .about__about {
-    height: 150vh;
-  }
-
-  .wrapper__together {
-    flex-wrap: wrap;
-  }
-
   .nav__links {
     display: none;
   }
@@ -661,6 +648,61 @@ a svg:hover {
 
   .header__container {
     padding-top: 0;
+  }
+
+  .main__text {
+    margin-top: 48px;
+    margin-left: 21px;
+  }
+
+  .not__main__text {
+    text-align: center;
+    margin-left: 21px;
+  }
+
+  .button__about {
+    margin: 70px 20px 0;
+  }
+
+  .about__wrapper {
+    padding-top: 70px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about__about {
+    border: 0;
+    height: 180vh;
+  }
+
+  .expertise h2 {
+    padding: 72px;
+  }
+
+  .wrapper__together {
+    flex-flow: column wrap;
+  }
+
+  .third__and__fourth__wrapp {
+    flex-direction: column;
+  }
+
+  .services__text__wrapper {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (width <= 440px) {
+  .testimonials__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__first__text p, .testimonial__first__text h1 {
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
