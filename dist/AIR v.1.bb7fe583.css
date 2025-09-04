@@ -282,7 +282,6 @@ a:hover {
   color: #c0cdd7;
   letter-spacing: 3px;
   margin-top: 251px;
-  margin-left: 225px;
   font-family: Poppins;
   font-size: 13px;
   font-weight: 700;
@@ -291,7 +290,6 @@ a:hover {
 .services__p {
   color: #253757;
   margin-top: 16px;
-  margin-left: 227px;
   font-family: Poppins;
   font-size: 32px;
   font-weight: 600;
@@ -308,7 +306,6 @@ a:hover {
 
 .basic__text__from__service {
   margin-top: 24px;
-  margin-left: 227px;
 }
 
 .wrapper__service {
@@ -393,9 +390,13 @@ a:hover {
   display: flex;
 }
 
+.services__info__text {
+  margin-left: 227px;
+}
+
 .testimonials__cards {
   justify-content: center;
-  gap: 30px;
+  gap: 24px;
   display: flex;
 }
 
@@ -406,7 +407,6 @@ a:hover {
   border-radius: 16px;
   width: 362px;
   height: 494px;
-  margin-top: 85px;
 }
 
 .testimonials__photo__people {
@@ -455,7 +455,6 @@ a:hover {
   border-radius: 16px;
   width: 362px;
   height: 494px;
-  margin-top: 85px;
 }
 
 .testimonial__first__text p {
@@ -470,6 +469,7 @@ a:hover {
 
 .testimonial__first__text h1 {
   margin-top: 16px;
+  margin-bottom: 85px;
   margin-left: 227px;
   font-family: Poppins;
   font-size: 32px;
@@ -690,8 +690,8 @@ a svg:hover {
     flex-direction: column;
   }
 
-  .services__text__wrapper {
-    margin-left: 18px;
+  .services__info__text {
+    margin-left: 20px;
   }
 }
 
@@ -707,6 +707,45 @@ a svg:hover {
 
   br {
     display: none;
+  }
+
+  .contact__form {
+    padding: 48px 0 0 20px;
+  }
+
+  input, textarea {
+    width: 370px;
+  }
+
+  .paragraph__in__footer {
+    margin: 0;
+    padding: 72px 0 0 20px;
+  }
+
+  .footer__button {
+    width: 280px;
+  }
+
+  .footer__button__wrapper {
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .form__all {
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 1439px;
+  }
+
+  .container__contacts p {
+    padding-top: 0;
+    padding-left: 20px;
+  }
+
+  .container__contacts h5, .container__contacts h3, .icons__web {
+    padding-left: 20px;
   }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
