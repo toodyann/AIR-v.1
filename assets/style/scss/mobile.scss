@@ -89,3 +89,12 @@
         margin-left: 20px;
     }
 }
+
+
+// DEFAULT SETTINGS
+    @media screen and (max-width:440px) {
+    
+    br {
+    display: none;
+    }
+}
