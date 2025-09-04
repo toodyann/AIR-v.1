@@ -1,30 +1,3 @@
-// section expertise
-
-@media screen and (max-width:430px) {
-    .card{
-
-    }
-    .cards{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .about__about{
-        height: 150vh;
-    }
-}
-
-
-// section services 
-
-
-@media screen and (max-width:430px) {
-    .wrapper__together{
-        flex-wrap: wrap;
-    }
-}
-
-
-
 // section header 
 
 
@@ -37,6 +10,82 @@
     }
     .header__container{
         padding-top: 0;
-        
+
+    }
+    .main__text{
+        margin-top: 48px;
+        margin-left: 21px;
+    }
+    .not__main__text{
+        margin-left: 21px;
+        text-align: center;
+    }
+    .button__about{
+        margin: 70px 20px 0px 20px;
+    }
+}
+
+
+
+// SECTION ABOUT
+
+@media screen and (max-width:430px) {
+    .about__wrapper{
+        padding-top: 70px;
+    }
+}
+
+
+// section expertise
+
+@media screen and (max-width:430px) {
+    .card{
+
+    }    
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }    
+    .about__about{
+        height: 180vh;
+        border: 0;
+    }    
+    .expertise h2{
+        padding: 72px;
+    }    
+}    
+
+
+// section services 
+
+
+@media screen and (max-width:430px) {
+    .wrapper__together{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }    
+    .third__and__fourth__wrapp{
+        flex-direction: column;
+    }
+    .services__text__wrapper{
+        margin-left: 18px;
+    }    
+}    
+
+
+
+
+// TESTIMONIALS SECTION
+
+@media screen and (max-width:440px) {
+    .testimonials__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__first__text p{
+        margin-left: 20px;
+    }
+    .testimonial__first__text h1{
+        margin-left: 20px;
     }
 }
