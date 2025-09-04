@@ -18,10 +18,10 @@ html, body {
   background-image: url("Photo.15ddc7f4.svg");
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  border: 1px solid #2c2c2c;
+  background-attachment: fixed;
+  border: 1px;
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
-  max-width: 2560px;
   height: 800px;
   margin: 0;
   padding: 0;
@@ -224,7 +224,6 @@ a:hover {
 .how__we__work__container {
   background-color: #fff;
   background-image: url("shapes.34b570bb.svg");
-  background-repeat: no-repeat;
   height: 888px;
   margin-top: 148px;
 }
@@ -552,6 +551,7 @@ input:focus, textarea:focus {
 
 .footer__button {
   color: #fff;
+  cursor: pointer;
   background-color: #2060f6;
   border-radius: 8px;
   justify-content: center;
@@ -635,5 +635,32 @@ a svg:hover {
 
 .link__footer {
   display: flex;
+}
+
+@media screen and (width <= 430px) {
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about__about {
+    height: 150vh;
+  }
+
+  .wrapper__together {
+    flex-wrap: wrap;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .logo {
+    padding: 21px;
+  }
+
+  .header__container {
+    padding-top: 0;
+  }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
