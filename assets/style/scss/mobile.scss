@@ -39,9 +39,7 @@
 // section expertise
 
 @media screen and (max-width:430px) {
-    .card{
-
-    }    
+     
     .cards{
         flex-direction: column;
         gap: 20px;
@@ -67,9 +65,10 @@
     .third__and__fourth__wrapp{
         flex-direction: column;
     }
-    .services__text__wrapper{
-        margin-left: 18px;
-    }    
+     
+    .services__info__text{
+        margin-left: 20px;
+    }
 }    
 
 
@@ -97,4 +96,48 @@
     br {
     display: none;
     }
+}
+
+// FOOTER
+
+@media screen and (max-width:440px) {
+    .contact__form{
+        padding: 48px 0px 0px 20px;
+        
+    }
+    input, textarea{
+        width: 370px;
+    }
+    .paragraph__in__footer{
+        padding: 72px 0px 0px 20px;
+        margin: 0;
+    }
+    .footer__button{
+        width: 280px;
+    }
+    .footer__button__wrapper{
+        display: flex;
+        margin-left: 20px;
+    }
+    .form__all{
+        flex-direction: column;
+    }
+    .footer{
+        height: 1439px;
+    }
+
+.container__contacts p {
+    padding-left: 20px;
+    padding-top: 0;
+}
+.container__contacts h5{
+    padding-left: 20px;
+
+}
+.container__contacts h3{
+    padding-left: 20px;
+}
+.icons__web{
+    padding-left: 20px;
+}
 }

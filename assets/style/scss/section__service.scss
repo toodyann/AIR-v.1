@@ -12,7 +12,6 @@
 
   letter-spacing: 3px;
   margin-top: 251px;
-  margin-left: 225px;
 }
 
 .services__p {
@@ -23,7 +22,6 @@
   color: #253757;
 
   margin-top: 16px;
-  margin-left: 227px;
   line-height: 130%;
 }
 
@@ -37,7 +35,6 @@
 
 .basic__text__from__service {
   margin-top: 24px;
-  margin-left: 227px;
 }
 
 //   flex for cards :)
@@ -129,4 +126,8 @@
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.services__info__text{
+  margin-left: 227px;
 }
