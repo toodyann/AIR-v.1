@@ -1,6 +1,13 @@
+// DEFAULT SETTINGS
+    @media screen and (max-width:440px) {
+    
+    br {
+    display: none;
+    }
+}
+
+
 // section header 
-
-
 @media screen and (max-width:430px) {
     .nav__links{
         display: none;
@@ -50,6 +57,9 @@
     }    
     .expertise h2{
         padding: 72px;
+    }
+    .third__and__fourth__wrapp{
+        margin-right: 0;
     }    
 }    
 
@@ -69,6 +79,9 @@
     .services__info__text{
         margin-left: 20px;
     }
+    .services h2{
+        margin-top: 120px;
+    }
 }    
 
 
@@ -86,23 +99,26 @@
     }
     .testimonial__first__text h1{
         margin-left: 20px;
+        margin-bottom: 48px;
     }
 }
 
-
-// DEFAULT SETTINGS
-    @media screen and (max-width:440px) {
-    
-    br {
-    display: none;
-    }
+//  HOW WE WORK
+@media screen and (max-width:440px) {
+.how__we__work__container {
+    background-image: none;
 }
 
+.button__about__apply {
+width: 280px;
+}
+}
 // FOOTER
 
 @media screen and (max-width:440px) {
     .contact__form{
         padding: 48px 0px 0px 20px;
+        width: 0;
         
     }
     input, textarea{
@@ -139,5 +155,8 @@
 }
 .icons__web{
     padding-left: 20px;
+}
+.footer__container{
+    gap: 0;
 }
 }
