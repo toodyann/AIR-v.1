@@ -637,6 +637,12 @@ a svg:hover {
   display: flex;
 }
 
+@media screen and (width <= 440px) {
+  br {
+    display: none;
+  }
+}
+
 @media screen and (width <= 430px) {
   .nav__links {
     display: none;
@@ -682,6 +688,10 @@ a svg:hover {
     padding: 72px;
   }
 
+  .third__and__fourth__wrapp {
+    margin-right: 0;
+  }
+
   .wrapper__together {
     flex-flow: column wrap;
   }
@@ -693,6 +703,10 @@ a svg:hover {
   .services__info__text {
     margin-left: 20px;
   }
+
+  .services h2 {
+    margin-top: 120px;
+  }
 }
 
 @media screen and (width <= 440px) {
@@ -701,15 +715,25 @@ a svg:hover {
     align-items: center;
   }
 
-  .testimonial__first__text p, .testimonial__first__text h1 {
+  .testimonial__first__text p {
     margin-left: 20px;
   }
 
-  br {
-    display: none;
+  .testimonial__first__text h1 {
+    margin-bottom: 48px;
+    margin-left: 20px;
+  }
+
+  .how__we__work__container {
+    background-image: none;
+  }
+
+  .button__about__apply {
+    width: 280px;
   }
 
   .contact__form {
+    width: 0;
     padding: 48px 0 0 20px;
   }
 
@@ -746,6 +770,10 @@ a svg:hover {
 
   .container__contacts h5, .container__contacts h3, .icons__web {
     padding-left: 20px;
+  }
+
+  .footer__container {
+    gap: 0;
   }
 }
 /*# sourceMappingURL=AIR v.1.bb7fe583.css.map */
