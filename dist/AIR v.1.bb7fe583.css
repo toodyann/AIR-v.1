@@ -637,14 +637,8 @@ a svg:hover {
   display: flex;
 }
 
-@media screen and (width <= 440px) {
-  br {
-    display: none;
-  }
-}
-
 @media screen and (width <= 430px) {
-  .nav__links {
+  br, .nav__links {
     display: none;
   }
 
@@ -667,7 +661,7 @@ a svg:hover {
   }
 
   .button__about {
-    margin: 70px 20px 0;
+    margin: 70px 33px 0;
   }
 
   .about__wrapper {
@@ -706,6 +700,10 @@ a svg:hover {
 
   .services h2 {
     margin-top: 120px;
+  }
+
+  .wrapper__service {
+    display: block;
   }
 }
 
@@ -751,7 +749,6 @@ a svg:hover {
   }
 
   .footer__button__wrapper {
-    margin-left: 20px;
     display: flex;
   }
 
