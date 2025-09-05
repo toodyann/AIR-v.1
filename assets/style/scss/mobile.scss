@@ -9,6 +9,9 @@
 
 // section header 
 @media screen and (max-width:430px) {
+    .hero{
+    height: 1200px;
+    }
     .nav__links{
         display: none;
     }
@@ -40,6 +43,9 @@
     .about__wrapper{
         padding-top: 70px;
     }
+    .about{
+        margin-top: 450px;
+    }
 }
 
 
@@ -52,11 +58,12 @@
         gap: 20px;
     }    
     .about__about{
-        height: 180vh;
+        height: 150vh;
         border: 0;
     }    
     .expertise h2{
-        padding: 72px;
+        padding-top: 72px;
+        word-break: break-all;
     }
     .third__and__fourth__wrapp{
         margin-right: 0;
@@ -84,6 +91,9 @@
     }
     .wrapper__service{
         display: block;
+    }
+    .wrapper__first__card{
+        margin-top: 48px;
     }
 }    
 
@@ -136,13 +146,13 @@ width: 280px;
     }
     .footer__button__wrapper{
         display: flex;
-        
+
     }
     .form__all{
         flex-direction: column;
     }
     .footer{
-        height: 1439px;
+        height: 1103px;
     }
 
 .container__contacts p {
