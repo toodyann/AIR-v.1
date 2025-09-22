@@ -48,7 +48,7 @@ ul li::marker {
 
 input,
 textarea {
-font-family: "Poppins";
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 15px;
   line-height: 100%;
@@ -78,99 +78,96 @@ textarea:focus {
 }
 
 .footer__button {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
-font-family: "Poppins";
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 15px;
   text-decoration: none;
   background-color: #2060f6;
-  
+
   border-radius: 8px;
   padding: 17px 112px 16px 113px;
+  margin-left: 50px;
   color: #ffffff;
   transition: background-color 0.3s;
   cursor: pointer;
 }
 
-button:hover{
-    color: #ffffff;
+button:hover {
+  color: #ffffff;
 }
 
 .form__all {
-    display: flex;
+  display: flex;
 }
 
-.container__contacts{
-    display: flex;
-    flex-direction: column;
+.container__contacts {
+  display: flex;
+  flex-direction: column;
 }
 
-.container__contacts p{
-    padding-left: 226px;
-    padding-top: 180px;
-    color: #ffffff;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 150%;
+.container__contacts p {
+  padding-left: 226px;
+  padding-top: 180px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
 }
 
-.container__contacts h5{
-padding-left: 226px;
-padding-top: 56px;
+.container__contacts h5 {
+  padding-left: 226px;
+  padding-top: 56px;
 
-font-family: 'Poppins';
-font-weight: 700;
-font-size: 13px;
-line-height: 100%;
-letter-spacing: 3px;
-color: #ffffff80;
-
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 3px;
+  color: #ffffff80;
 }
 
-.container__contacts h3{
-    padding-left: 226px;
-    padding-top: 8px;
+.container__contacts h3 {
+  padding-left: 226px;
+  padding-top: 8px;
 
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
 }
 
-.icons__web{
-    display: flex;
-    padding-left: 226px;
-    padding-top: 16px;
+.icons__web {
+  display: flex;
+  padding-left: 226px;
+  padding-top: 16px;
 
-    color: #ffffff;
+  color: #ffffff;
 
-    gap: 38px;
-    min-width: 32px;
-    min-height: 32px;
-    cursor: pointer;
+  gap: 38px;
+  min-width: 32px;
+  min-height: 32px;
+  cursor: pointer;
 }
 
 a svg {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-a svg:hover{
-    color: #2060F6;
-    transform: scale(1.2);
+a svg:hover {
+  color: #2060f6;
+  transform: scale(1.2);
 }
 
-.footer__container{
+.footer__container {
   display: flex;
   gap: 463px;
-
 }
 
-.link__footer{
+.link__footer {
   display: flex;
-  
 }
-

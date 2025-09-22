@@ -554,6 +554,7 @@ input:focus, textarea:focus {
   background-color: #2060f6;
   border-radius: 8px;
   justify-content: center;
+  margin-left: 50px;
   padding: 17px 112px 16px 113px;
   font-family: Poppins;
   font-size: 15px;
