@@ -677,15 +677,15 @@ parcelHelpers.export(exports, "buttonsClick", ()=>buttonsClick);
 const buttonsClick = ()=>{
     console.log('buttonsClick');
 };
-console.warn("scss not work");
+console.warn1("scss not work");
 let age = prompt("\u0421\u043A\u043B\u0456\u043B\u044C\u043A\u0438 \u0442\u043E\u0431\u0456");
 if (age > 18) {
     alert("+");
     alert("\u041D\u0435 \u0431\u0443\u0434\u044C \u043F\u0441\u0456\u0445\u043E\u043C");
 } else if (age < 18) alert("\u0428\u043E,\u0441\u043F\u044F\u0442\u0456\u043B?");
 let q = confirm("\u0422\u043E\u0447\u043D\u043E?");
-if (!q) alert("?????");
-else if (q == true) alert("\u041D\u0435\u0432\u0456\u0440\u044E");
+if (!q) alert("\u041D\u0435\u0432\u0456\u0440\u044E");
+else if (q == true) alert("\u0412\u0456\u0440\u044E");
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
