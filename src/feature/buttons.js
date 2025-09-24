@@ -2,7 +2,7 @@ export const buttonsClick =() =>{
     console.log('buttonsClick');
 }
 
-console.warn1("scss not work");
+console.warn("scss not work");
 
 let age = prompt("Склільки тобі")
 if(age > 18){
@@ -20,3 +20,9 @@ else if( q == true ){
     alert("Вірю");
 }
 
+window.onload = function() {
+    console.log("Сторінка та всі ресурси повністю завантажені!");
+    function btnClick() {
+        alert("Дані успішно відправлені!");
+    }
+}
