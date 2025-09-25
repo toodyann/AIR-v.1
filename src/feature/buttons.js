@@ -22,5 +22,5 @@ else if( q == true ){
 
 
     function btnClick() {
-        console.log("Дані успішно відправлені!");
+        console.log("Дані успішно відправлені!!!");
     }
