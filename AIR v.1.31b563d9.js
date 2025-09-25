@@ -686,12 +686,9 @@ if (age > 18) {
 let q = confirm("\u0422\u043E\u0447\u043D\u043E?");
 if (!q) alert("\u041D\u0435\u0432\u0456\u0440\u044E");
 else if (q == true) alert("\u0412\u0456\u0440\u044E");
-window.onload = function() {
-    console.log("\u0421\u0442\u043E\u0440\u0456\u043D\u043A\u0430 \u0442\u0430 \u0432\u0441\u0456 \u0440\u0435\u0441\u0443\u0440\u0441\u0438 \u043F\u043E\u0432\u043D\u0456\u0441\u0442\u044E \u0437\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u0456!");
-    function btnClick() {
-        alert("\u0414\u0430\u043D\u0456 \u0443\u0441\u043F\u0456\u0448\u043D\u043E \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0456!");
-    }
-};
+function btnClick() {
+    console.log("\u0414\u0430\u043D\u0456 \u0443\u0441\u043F\u0456\u0448\u043D\u043E \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0456!");
+}
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
