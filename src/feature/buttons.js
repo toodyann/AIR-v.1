@@ -1,23 +1,26 @@
 export const buttonsClick =() =>{
     console.log('buttonsClick');
 }
-    export function btnClick() {
-        alert("Дані успішно відправлені!");
-    }
+
 console.warn("scss not work");
 
-// let age = prompt("Склільки тобі")
-// if(age > 18){
-//     alert("+");
-//     alert("Не будь псіхом")
+let age = prompt("Склільки тобі")
+if(age > 18){
+    alert("+");
+    alert("Не будь псіхом")
 
-// }else if(age < 18)
-//     alert("Шо,спятіл?");
+}else if(age < 18)
+    alert("Шо,спятіл?");
 
-// let q = confirm("Точно?")
-//     if(!q){
-//         alert("Невірю")
-//     }
-// else if( q == true ){
-//     alert("Вірю");
-// }
+let q = confirm("Точно?")
+    if(!q){
+        alert("Невірю")
+    }
+else if( q == true ){
+    alert("Вірю");
+}
+
+
+    function btnClick() {
+        console.log("Дані успішно відправлені!");
+    }
