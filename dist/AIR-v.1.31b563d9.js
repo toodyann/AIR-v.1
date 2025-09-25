@@ -669,14 +669,33 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"a0t4e":[function(require,module,exports,__globalThis) {
 var _buttonsJs = require("./feature/buttons.js");
 (0, _buttonsJs.buttonsClick)();
+const submitBtn = document.getElementById('form-submit-btn');
+submitBtn.addEventListener('click', (0, _buttonsJs.btnClick));
 
 },{"./feature/buttons.js":"9qJP1"}],"9qJP1":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "buttonsClick", ()=>buttonsClick);
+parcelHelpers.export(exports, "btnClick", ()=>btnClick);
 const buttonsClick = ()=>{
     console.log('buttonsClick');
 };
+function btnClick() {
+    alert("\u0414\u0430\u043D\u0456 \u0443\u0441\u043F\u0456\u0448\u043D\u043E \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0456!");
+}
+console.warn("scss not work"); // let age = prompt("Склільки тобі")
+ // if(age > 18){
+ //     alert("+");
+ //     alert("Не будь псіхом")
+ // }else if(age < 18)
+ //     alert("Шо,спятіл?");
+ // let q = confirm("Точно?")
+ //     if(!q){
+ //         alert("Невірю")
+ //     }
+ // else if( q == true ){
+ //     alert("Вірю");
+ // }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
