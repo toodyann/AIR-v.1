@@ -1,3 +1,4 @@
+import '../assets/style/scss/index.scss';
 import {buttonsClick, btnClick} from './feature/buttons.js';
 
 buttonsClick();
