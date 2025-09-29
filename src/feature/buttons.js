@@ -2,29 +2,33 @@ export const btnClick = () => {
   alert("Па-па парсель!");
 };
 
-document.getElementsByClassName("x-icon")[0].style.display = "none";
+const x_button = document.getElementsByClassName("x-icon")[0];
+const button__about =  document.getElementsByClassName("button__about")[0];
+const image =  document.getElementsByClassName("osel-meme")[0];
 
-document
-  .getElementsByClassName("button__about")[0]
-  .addEventListener("click", function () {
-    document.getElementsByClassName("osel-meme")[0].style.display = "inline";
+x_button.style.display = "none";
 
-    document.getElementsByClassName("x-icon")[0].style.display = "inline";
+button__about.addEventListener("click", function () {
+    image.style.display = "inline";
 
-    document.getElementsByClassName("button__about")[0].disabled = true;
+    x_button.style.display = "inline";
 
-    document.getElementsByClassName("x-icon")[0].disabled = false;
+    button__about.disabled = true;
+
+    x_button.disabled = false;
 
     alert("Нашо нажав?");
   });
 
-document
-  .getElementsByClassName("x-icon")[0]
-  .addEventListener("click", function () {
-    document.getElementsByClassName("osel-meme")[0].style.display = "none";
-    document.getElementsByClassName("x-icon")[0].style.display = "none";
-    document.getElementsByClassName("x-icon")[0].disabled = false;
-    document.getElementsByClassName("button__about")[0].disabled = false;
+    x_button.addEventListener("click", function () {
+
+    image.style.display = "none";
+
+    x_button.style.display = "none";
+
+    x_button.disabled = false;
+
+    button__about.disabled = false;
   });
 
 const js = "JS,успішно завантажено!!!";
