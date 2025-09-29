@@ -84,7 +84,7 @@ a:hover {
   align-items: center;
 
   margin-top: 83px;
-  padding: 12px 30px;
+  padding: 30px 30px;
   width: 264px;
   height: 40px;
   border-radius: 8px;
@@ -163,3 +163,27 @@ a:hover {
 }
 
 
+.osel-meme{
+  display: none;
+  width: 412px;
+  height: 300px;
+
+}
+
+.x-icon button{
+  display: flex;
+  justify-content: end;
+  border: none;
+  box-shadow: none;
+  background: none;
+  color: white;
+
+}
+.x-icon button:hover{
+  cursor: pointer;
+  color: black ;
+  transition: 0.3s ease-out;
+  transition-delay: 0.2s;
+
+  transform: scale(110%);
+}
