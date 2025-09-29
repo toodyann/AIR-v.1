@@ -22,6 +22,7 @@ document
   .getElementsByClassName("x-icon")[0]
   .addEventListener("click", function () {
     document.getElementsByClassName("osel-meme")[0].style.display = "none";
+    document.getElementsByClassName("x-icon")[0].style.display = "none";
     document.getElementsByClassName("x-icon")[0].disabled = false;
     document.getElementsByClassName("button__about")[0].disabled = false;
   });
