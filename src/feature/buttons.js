@@ -1,26 +1,30 @@
-export const buttonsClick =() =>{
-    console.log('buttonsClick');
-}
+export const btnClick = () => {
+  alert("Па-па парсель!");
+};
 
-console.warn("scss not work");
+document.getElementsByClassName("x-icon")[0].style.display = "none";
 
-let age = prompt("Склільки тобі")
-if(age > 18){
-    alert("+");
-    alert("Не будь псіхом")
+document
+  .getElementsByClassName("button__about")[0]
+  .addEventListener("click", function () {
+    document.getElementsByClassName("osel-meme")[0].style.display = "inline";
 
-}else if(age < 18)
-    alert("Шо,спятіл?");
+    document.getElementsByClassName("x-icon")[0].style.display = "inline";
 
-let q = confirm("Точно?")
-    if(!q){
-        alert("Невірю")
-    }
-else if( q == true ){
-    alert("Вірю");
-}
+    document.getElementsByClassName("button__about")[0].disabled = true;
 
+    document.getElementsByClassName("x-icon")[0].disabled = false;
 
-    function btnClick() {
-        console.log("Дані успішно відправлені!!!");
-    }
+    alert("Нашо нажав?");
+  });
+
+document
+  .getElementsByClassName("x-icon")[0]
+  .addEventListener("click", function () {
+    document.getElementsByClassName("osel-meme")[0].style.display = "none";
+    document.getElementsByClassName("x-icon")[0].disabled = false;
+    document.getElementsByClassName("button__about")[0].disabled = false;
+  });
+
+const js = "JS,успішно завантажено!!!";
+console.log(js);
