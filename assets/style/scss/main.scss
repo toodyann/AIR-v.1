@@ -78,7 +78,7 @@ a:hover {
   color: #ffffff;
 }
 
-.button__about {
+.heroMainButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,13 +90,18 @@ a:hover {
   border-radius: 8px;
   margin-left: 227px;
 
+  cursor: pointer;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 15px;
   text-decoration: none;
   background-color: #2060f6;
   color: #ffffff;
+  transition: all 0.19s ease;
 }
+ button:hover{
+  background-color: rgb(12, 47, 128);
+  }
 
 .main__text {
   font-family: "Poppins", sans-serif;
@@ -163,27 +168,26 @@ a:hover {
 }
 
 
-.osel-meme{
+.memeImage{
   display: none;
   width: 412px;
   height: 300px;
 
 }
 
-.x-icon button{
+.xIcon button{
   display: flex;
   justify-content: end;
   border: none;
   box-shadow: none;
   background: none;
   color: white;
+  transition: all 0.14s ease ;
+  transform: scale(110%);
+  cursor: pointer;
 
 }
-.x-icon button:hover{
-  cursor: pointer;
+.xIcon button:hover{
   color: black ;
-  transition: 0.3s ease-out;
-  transition-delay: 0.2s;
 
-  transform: scale(110%);
 }
