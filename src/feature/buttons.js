@@ -2,34 +2,47 @@ export const btnClick = () => {
   alert("Па-па парсель!");
 };
 
-const x_button = document.getElementsByClassName("x-icon")[0];
-const button__about =  document.getElementsByClassName("button__about")[0];
-const image =  document.getElementsByClassName("osel-meme")[0];
+const xButton = document.querySelector(".xIcon");
+const heroMainButton =  document.querySelector(".heroMainButton");
+const memeImage =  document.querySelector(".memeImage");
 
-x_button.style.display = "none";
+xButton.style.display = "none";
 
-button__about.addEventListener("click", function () {
-    image.style.display = "inline";
+const addImage = () => { 
+    memeImage.style.display = "inline";
+    
+    xButton.style.display = "inline";
+    
+    heroMainButton.disabled = true;
+    
+    xButton.disabled = false;
+    
+   
+}
 
-    x_button.style.display = "inline";
+const showMessage = () => {
+    alert("Для чого натиснув?");
+}
 
-    button__about.disabled = true;
+const removeImage = () => {
+    memeImage.style.display = "none";
 
-    x_button.disabled = false;
+    xButton.style.display = "none";
 
-    alert("Нашо нажав?");
-  });
+    xButton.disabled = true;
 
-    x_button.addEventListener("click", function () {
+    heroMainButton.disabled = false;
+    
+}
 
-    image.style.display = "none";
+const onHeroButtonClick = () => {
+    addImage();
+    showMessage();
+}
 
-    x_button.style.display = "none";
+heroMainButton.addEventListener("click", onHeroButtonClick);
 
-    x_button.disabled = false;
-
-    button__about.disabled = false;
-  });
+xButton.addEventListener("click", removeImage);
 
 const js = "JS,успішно завантажено!!!";
 console.log(js);
